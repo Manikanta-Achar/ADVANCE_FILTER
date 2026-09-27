@@ -17,15 +17,17 @@ function Nav({ handleInputChange, query }) {
       </div>
 
       <div className="profile-container">
-        <a href="/men">
+        <button type="button">
           <FiHeart className="nav-icons" />
-        </a>
-        <a href="/women">
+        </button>
+
+        <button type="button">
           <AiOutlineShoppingCart className="nav-icons" />
-        </a>
-        <a href="/kids">
+        </button>
+
+        <button type="button">
           <AiOutlineUserAdd className="nav-icons" />
-        </a>
+        </button>
       </div>
     </nav>
   );
